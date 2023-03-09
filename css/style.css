@@ -128,7 +128,8 @@ line-height: 24px;
   text-decoration: none;
   color: var(--accent-color);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
+  margin-top: 10px;
 /* margin-left: 10px; */
 }
 .project-link:hover,
@@ -141,6 +142,7 @@ line-height: 24px;
 }
 .text {
   font-size: 16px;
+  margin-bottom: 5px;
 }
 .text-accent {
   font-weight: 600;
@@ -285,7 +287,7 @@ color: var(--bacground);
 text-decoration: none;
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 18px;
 line-height: 24px;
 color: var(--text-color);
 font-weight: 600;
@@ -356,3 +358,12 @@ margin-bottom: 20px;
 .first-work-item {
   margin-bottom: 10px;
 }
+
+.project-gap {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+/* .link-gap{
+  margin-top: 10px;
+} */
