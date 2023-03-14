@@ -86,6 +86,7 @@ margin-bottom: 25px;
 text-align: justify;
 font-style: normal;
 font-weight: 400;
+color: var(--text-color);
 line-height: 24px;
 margin-left:15px;
 margin-top: 25px;
@@ -106,17 +107,17 @@ margin-bottom: 10px;
 }
 .projects-list {
   list-style: none;
+  text-align: justify;
 padding: 0;
 margin-left: 15px;
 }
-.project-item,
-.project-brek {
+.project-item {
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 24px;
 color: var(--text-color);
-margin-bottom: 10px;
+margin-bottom: 20px;
 }
 .project,
 .project-link {
@@ -362,6 +363,10 @@ margin-bottom: 20px;
 .project-gap {
   margin-bottom: 5px;
   margin-top: 10px;
+}
+
+.section-gap{
+  margin-bottom: 30px;
 }
 
 /* .link-gap{
